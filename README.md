@@ -39,7 +39,7 @@ Using Vue's `<transition>` component, you can create a component that is respons
     - *This is shorthand for `v-bind:css="false"`.*
 * The `appear` prop tells Vue to run the `enter` hook callback when the component is first added to the page.
     - *This is shorthand for `:appear="true"`.*
-* The `@enter` and `@leave` events a transition hooks, called by Vue when the component is added/removed from the DOM. You can view all the available hooks [here](https://vuejs.org/v2/guide/transitions.html#JavaScript-Hooks), but you will likely only end up using the two I've shown.
+* The `@enter` and `@leave` transition hooks, called by Vue when the component is added/removed from the DOM. You can view all the available hooks [here](https://vuejs.org/v2/guide/transitions.html#JavaScript-Hooks), but you will likely only end up using the two I've shown.
     - *`@enter` is shorthand for `v-on:enter`.*
 
 ### Script
