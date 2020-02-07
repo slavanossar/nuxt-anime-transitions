@@ -29,7 +29,7 @@ Using Vue's `<transition>` component, you can create a component that is respons
     @leave="hide"
   >
     <div>
-      ...
+      I am an example component
     </div>
   </transition>
 </template>
