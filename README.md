@@ -20,7 +20,7 @@ Using Vue's `<transition>` component, you can create a component that is respons
 
 ### Template
 
-```
+```vue
 <template>
   <transition
     :css="false"
@@ -44,7 +44,7 @@ Using Vue's `<transition>` component, you can create a component that is respons
 
 ### Script
 
-```
+```vue
 <script>
 import anime from 'animejs'
 
