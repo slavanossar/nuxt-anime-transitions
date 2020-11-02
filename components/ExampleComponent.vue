@@ -1,5 +1,5 @@
 <template>
-  <transition appear :css="false" @enter="show" @leave="hide">
+  <transition :css="false" appear @enter="show" @leave="hide">
     <div>
       I am an example component
     </div>
