@@ -17,9 +17,9 @@ import anime from 'animejs'
 export default {
   name: 'ExampleComponent',
   methods: {
-    show(el, complete) {
+    show(targets, complete) {
       anime({
-        targets: el,
+        targets,
         translateY: ['-100%', 0],
         translateZ: 0,
         duration: 1000,
@@ -27,9 +27,9 @@ export default {
         complete
       })
     },
-    hide(el, complete) {
+    hide(targets, complete) {
       anime({
-        targets: el,
+        targets,
         translateY: ['-100%', 0],
         translateZ: 0,
         duration: 1000,
