@@ -1,12 +1,7 @@
 <template>
   <div>
-    <ExampleComponent
-      v-if="showExampleComponent"
-    />
-    <button
-      type="button"
-      @click.prevent="showExampleComponent = !showExampleComponent"
-    >
+    <ExampleComponent v-if="showExampleComponent" />
+    <button type="button" @click.prevent="showExampleComponent = !showExampleComponent">
       Toggle ExampleComponent
     </button>
   </div>
